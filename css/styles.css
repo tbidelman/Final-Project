@@ -1,0 +1,223 @@
+/*
+
+	Portfolio
+
+*/
+
+* {
+	box-sizing: border-box;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+	font-size: 18px;
+	
+}
+
+html, body {
+	background-color: #c0c0c0;
+	width: 100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+
+}
+#wrap {
+	width: 100%;
+	margin-top: 240px;
+}
+.content {
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+/*	border: 1px solid red; */
+}
+
+header {
+	height: 240px;
+	width: 100%;
+	padding: 25px 0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	font-size: 48px;
+	color: black;
+	background-color: white;
+	background-image: url("../img/sitemap.jpg");
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 500px 250px;
+
+}
+
+nav {
+	font-size: 34px; 
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 35px;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+nav a {
+	
+	letter-spacing: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+	color: #696969;
+	margin-left: 2px;
+	margin-right: 2px;
+	
+
+}
+
+nav a:hover  {
+color: #000000;
+font-weight: bold;
+} 
+
+h1 {
+	font-family: Syncopate;
+	font-size: 30px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 550;
+	line-height: 26.4px;
+	letter-spacing: 2px;
+	padding-top: 100px;
+	color: #696969;
+	text-align: center;
+} 
+
+#name {
+	font-family: Syncopate;
+	font-size: 48px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	text-decoration: none;
+	line-height: 26.4px;
+	letter-spacing: 2px;
+	padding-top: 100px;
+	color: #696969;
+	
+}
+
+h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: Syncopate;
+	font-size: 40px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	text-decoration: none;
+	line-height: 26.4px;
+	letter-spacing: 2px;
+	color: #696969;
+	
+}
+
+footer {
+	margin: auto;
+	width: 100%;
+	text-align: left;
+	top: 550px;
+	margin-bottom: 20px;
+
+}
+
+#resume {
+	margin: auto;
+	width: 50%;
+	color: #000000;
+	padding: 40px 20px 20px 20px;
+
+}
+
+#my-resume {
+	margin: auto;
+	width: 10%;
+	color: #000000;
+	padding: 40px 20px 20px 20px;
+}
+
+#objective {
+	margin: auto;
+	width: 50%;
+	color: #000000;
+	padding: 90px 20px 90px 20px;
+	text-align: justify;
+}
+
+.grey {
+	background-color: #696969;
+}
+.white {
+	background-color: #fff;
+}
+
+section {
+	width: 100%;
+}
+.content {
+	width: 75%;
+	height: 800px;
+	margin: auto;
+/*	border: 2px solid red; */
+	background-color: none;
+
+
+}
+
+.col-2 {
+	margin: auto;
+	width: 50%;
+	display: inline-block;
+/*	border: 1px solid #ccc; */
+	vertical-align: top;
+/*	border: 2px solid purple; */
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+
+
+}
+
+.col-2 a, .col-2 img {
+	display: block;
+	margin: auto;
+}
+
+.transition {
+  transition: all 0.4s ease;
+  height: 10%;
+  width: 40%;
+  line-height: 3.8em;
+  text-decoration: none;
+  color: #696969;
+}
+
+.transition:hover {
+  padding: 0;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color: #000;
+  width: 40%;
+  height: 56px; 
+  margin: 4px auto 0 auto;
+  color: #fff;
+  background-color: #706B6B;
+  text-shadow: 1px 1px 4px #000;
+  -webkit-text-shadow: 1px 1px 4px #000;
+  -moz-text-shadow: 1px 1px 4px #000;
+}
+
+
+
+
+
+
